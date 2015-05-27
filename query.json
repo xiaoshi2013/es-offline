@@ -1,0 +1,1 @@
+{"size":5,"query":{"filtered":{"query":{"bool":{"must":{"query_string":{"query":"*"}}}},"filter":{"bool":{"must":{"range":{"@timestamp":{"from":1407427200000,"to":1407513600000,"include_lower":true,"include_upper":true}}}}}}}}
